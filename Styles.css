@@ -17,3 +17,16 @@ body {
             min-height: 100vh;
         }
         
+
+        .form-box {
+            position: relative;
+            width: 400px;
+            height: 550px;
+            border: 2px solid rgba(255, 255, 2550.5);
+            border-radius: 20px;
+            backdrop-filter: blur(15px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
