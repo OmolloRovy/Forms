@@ -75,3 +75,25 @@ i {
             cursor: pointer;
             box-shadow: 3px 0 10px rgba(0, 0, 0, .5);
         }
+.group {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .group span {
+            color: #fff;
+            position: relative;
+            top: 10px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .group a:focus {
+            text-decoration: underline;
+        }
+        
+        #result {
+            color: red;
+            font-weight: 600;
+            top: 25px;
+        }
