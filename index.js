@@ -18,4 +18,5 @@ function validation() {
         document.getElementById("result").innerHTML = " Confirm Password*";
         return false;
     }
+    
 }
