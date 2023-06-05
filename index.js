@@ -18,5 +18,8 @@ function validation() {
         document.getElementById("result").innerHTML = " Confirm Password*";
         return false;
     }
-    
+    else if (document.Formfill.Password.value !== document.Formfill.cPassword.value) {
+        document.getElementById("result").innerHTML = " Password doesnt match*";
+        return false;
+    }
 }
