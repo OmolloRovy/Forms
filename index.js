@@ -14,5 +14,8 @@ function validation() {
         document.getElementById("result").innerHTML = "Enter your Email*";
         return false;
     }
-    
+     else if (document.Formfill.cPassword.value == "") {
+        document.getElementById("result").innerHTML = " Confirm Password*";
+        return false;
+    }
 }
