@@ -27,4 +27,5 @@ echo "Database created successfully";
 { echo "ERROR: Could not able to execute $sql. " .
 mysqli_error($link);
 }
+
 ?>
