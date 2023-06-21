@@ -1,2 +1,2 @@
 <?php
-$link= msqli_connect ("localhost",)
+$link= msqli_connect ("localhost","root",)
