@@ -1,2 +1,2 @@
 <?php
-$link= msqli_connect ("localhost","root","",)
+$link= msqli_connect ("localhost","root","","dbtrail")
