@@ -1,3 +1,3 @@
 <?php
 $link= msqli_connect ("localhost","root","","dbtrail");
-if()
+if($link===false)
