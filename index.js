@@ -14,7 +14,6 @@ function validation() {
     } else if (document.Formfill.Password.value.length < 6) {
         document.getElementById("result").innerHTML = " Password must be > 6 digits *";
         return false;
-
     } else if (document.Formfill.cPassword.value == "") {
         document.getElementById("result").innerHTML = " Confirm Password*";
         return false;
