@@ -11,7 +11,6 @@ function validation() {
     } else if (document.Formfill.username.value.length < 6) {
         document.getElementById("result").innerHTML = "Atleast six lettters*";
         return false;
-
     } else if (document.Formfill.Password.value.length < 6) {
         document.getElementById("result").innerHTML = " Password must be > 6 digits *";
         return false;
