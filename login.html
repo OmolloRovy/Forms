@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <form action="" name="Formfill" onsubmit="return validation()">
+
+                <h2>Login</h2>
+                <p id="result">WELCOME!!</p>
+                <div class="input-box">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" name="Email" placeholder="Email">
+
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt'></i>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="button">
+                    <input type="submit" onclick="validation()" value="Login" class="btn">
+                </div>
+                <div class="groupl">
+                    <span><a href="#">Forget-Password</a></span>
+                    <span><a href="index.html">Register</a></span>
+
+                </div>
+            </form>
+        </div>
+        <!--pop up value cration-->
+        <div class="popup" id="popup">
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+            <h2>Thank you! </h2>
+            <p>Login Succesfull !...!</p>
+            <a href="login.html"><button onclick="CloseSlide()">OK</button></a>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
