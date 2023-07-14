@@ -1,5 +1,5 @@
 <?php
-$link= msqli_connect ("localhost","root","","trail");
+$link= msqli_connect ("localhost","root","","first");
 if($link===false){
   die("EROR: Couldn't connect".conn_eror());
 }
