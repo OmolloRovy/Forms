@@ -8,3 +8,4 @@ else{
   echo"connection succesfull".get_host_ìnfo();
 }
 mysqli_close($link)
+?>
