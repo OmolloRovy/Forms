@@ -25,4 +25,5 @@ else{
 echo"Database created successfully ". get_host_info();
 }
 $sql1="Use DATABASE reder";
+$sql2
 mysqli_close($link);
