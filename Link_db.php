@@ -13,3 +13,6 @@ $link = mysqli_connenct("localhost","root","","reder");
 if($link===false){
 die("EROR: couldn't connect".con_error());
 }
+else{
+echo
+}
