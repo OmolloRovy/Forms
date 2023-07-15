@@ -17,4 +17,11 @@ else{
 echo"Connection successful ". get_host_info();
 }
 $sql= "CREATE DATABASE reder";
+$link = mysqli_connenct("localhost","root","","reder");
+if($link===false){
+die("EROR: couldn't create database".conn_error());
+}
+else{
+echo"Database created successfully ". get_host_info();
+}
 mysqli_close($link);
