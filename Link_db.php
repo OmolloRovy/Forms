@@ -9,4 +9,4 @@ else{
 }
 mysqli_close($link)
 ?>
-$link = mysqli_connenct("localhost","root","","reder"
+$link = mysqli_connenct("localhost","root","","reder");
