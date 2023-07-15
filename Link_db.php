@@ -9,3 +9,4 @@ else{
 }
 mysqli_close($link)
 ?>
+$link = mysqli_connenct
