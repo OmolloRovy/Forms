@@ -11,5 +11,5 @@ mysqli_close($link)
 ?>
 $link = mysqli_connenct("localhost","root","","reder");
 if($link===false){
-die("EROR: couldn't connect"
+die("EROR: couldn't connect".con_error());
 }
