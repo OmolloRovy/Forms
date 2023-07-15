@@ -10,3 +10,6 @@ else{
 mysqli_close($link)
 ?>
 $link = mysqli_connenct("localhost","root","","reder");
+if($link===false){
+
+}
