@@ -16,4 +16,5 @@ die("EROR: couldn't connect".conn_error());
 else{
 echo"Connection successful ". get_host_info();
 }
+$sql= "CREATE DATABASE reder";
 mysqli_close($link);
