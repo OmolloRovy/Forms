@@ -24,5 +24,5 @@ die("EROR: couldn't create database".conn_error());
 else{
 echo"Database created successfully ". get_host_info();
 }
-$sql1=
+$sql1="Use DATABASE reder";
 mysqli_close($link);
