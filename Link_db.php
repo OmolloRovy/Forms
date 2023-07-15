@@ -14,5 +14,5 @@ if($link===false){
 die("EROR: couldn't connect".con_error());
 }
 else{
-echo
+echo"Connection successful ". get_host_info();
 }
