@@ -16,4 +16,4 @@ die("EROR: couldn't connect".con_error());
 else{
 echo"Connection successful ". get_host_info();
 }
-msqli_close($link);
+mysqli_close($link);
