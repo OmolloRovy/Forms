@@ -26,4 +26,5 @@ echo"Database created successfully ". get_host_info();
 }
 $sql1="Use DATABASE reder";
 $sql2="Create Table Names......";
+$sql3="INSERT INTO Names Values (.......);
 mysqli_close($link);
