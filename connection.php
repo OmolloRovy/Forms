@@ -20,7 +20,7 @@ if($link === false)
 die("ERROR: Could not connect. " . mysqli_connect_error());
 }
 // Attempt create database query execution
-$sql = "CREATE DATABASE For1";
+$sql = "CREATE DATABASE Form1";
 if(mysqli_query($link, $sql))
 {
 echo "Database created successfully";
