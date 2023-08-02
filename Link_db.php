@@ -1,5 +1,5 @@
 <?php
-$link= msqli_connect ("localhost","root","","db1");
+$link= msqli_connect ("localhost","root","","d");
 if($link===false){
   die("EROR: Couldn't connect".conn_eror());
 }
