@@ -1,5 +1,5 @@
 <?php
-$link= msqli_connect ("localhost","root","","d");
+$link= msqli_connect ("localhost","root","","");
 if($link===false){
   die("EROR: Couldn't connect".conn_eror());
 }
